@@ -2,7 +2,19 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
+    <div className="flex flex-col">
     <main className="min-h-screen bg-white dark:bg-white p-4 sm:p-10">
+      <aside className="w-48" aria-label="Sidebar"> {/* Reduced width to 48 from 64 */}
+        <div className="py-4 px-3 bg-gray-50 dark:bg-gray-800">
+          <ul className="space-y-2">
+            <li>
+              <a href="/blogs" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                Blogs
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
       <div className="max-w-4xl mx-auto w-full">
         <header className="mb-10">
           <h1 className="text-4xl font-bold text-gray-800 dark:text-black">Georgina 👩🏼‍💻</h1>
@@ -62,5 +74,6 @@ export default function Home() {
         </footer>
       </div>
     </main>
+  </div>
   );
 }
