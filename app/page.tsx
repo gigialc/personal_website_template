@@ -20,7 +20,16 @@ export default function Home() {
           <h1 className="text-4xl font-bold text-gray-800 dark:text-black">Georgina 👩🏼‍💻</h1>
         </header>
 
-        <section className="mb-6">
+        <div className="flex justify-right">
+          <Image
+            src="/georgina.jpg"
+            alt="Picture of the author"
+            width={300}
+            height={300}
+            className="rounded-full"
+          />
+        </div>
+        <section className="mb-6 mt-10">
           <p className="text-gray-600 dark:text-gray-600">
           Passionate about advancing women's health, building impactful communities, and developing fun apps. Right now my mission is to personalize health so we can prevent more diseases and live longer, healthier lives.
           </p>
