@@ -8,7 +8,7 @@ export default function Home() {
         <div className="py-4 px-3 bg-gray-50 dark:bg-gray-800">
           <ul className="space-y-2">
             <li>
-              <a href="/blogs" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+              <a href="/blogs" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white">
                 Blogs
               </a>
             </li>
@@ -36,7 +36,10 @@ export default function Home() {
               I'm running the <a href="https://womenxinnovators.wixsite.com/letsinnovate" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Womenx Innovators</a> community!
             </li>
             <li>
-              Building Destig Femme, winner of the <a href="https://minepi.com/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Pi Network</a> 20K grant competition at Hack Harvard 2022
+              Building Destig Femme, winner of the <a href="destigfemme.app" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Pi Network</a> 20K grant competition at Hack Harvard 2022
+            </li>
+            <li>
+              Building Older Sister <a href="https://minepi.com/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer"> an AI powered app for women's health literacy</a> 
             </li>
           </ul>
         </section>
