@@ -39,7 +39,7 @@ export default function Home() {
               Building Destig Femme, winner of the <a href="destigfemme.app" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Pi Network</a> 20K grant competition at Hack Harvard 2022
             </li>
             <li>
-              Building Older Sister <a href="https://minepi.com/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer"> an AI powered app for women's health literacy</a> 
+              Building Older Sister <a href="https://spark-older-sister.vercel.app/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer"> an AI powered app for women's health literacy</a> 
             </li>
           </ul>
         </section>
