@@ -14,4 +14,5 @@ const blog1 = () => {
     );
     }
 
+export default blog1;
 
