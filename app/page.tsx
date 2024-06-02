@@ -36,7 +36,7 @@ export default function Home() {
         </section>
 
         <section className="mb-6">
-          <h2 className="text-3xl text-gray-800 dark:text-black mb-3">Projects and Startups</h2>
+          <h2 className="text-3xl text-gray-800 dark:text-black mb-3">Projects and Apps</h2>
           <ul className="list-disc list-inside text-gray-600 dark:text-gray-600">
 
           <li>
@@ -72,7 +72,7 @@ export default function Home() {
 
 
         <section className="mb-6">
-          <h2 className="text-3xl text-gray-800 dark:text-black mb-3">About Me</h2>
+          <h2 className="text-3xl text-gray-800 dark:text-black mb-3">More about me...</h2>
           <ul className="list-disc list-inside text-gray-600 dark:text-gray-600">
             <li>I love sports, I have gone skydiving twice in my life, I also love skiing and horseback riding</li>
             {/* <li>I'm from Barcelona, Spain ☀️ and I'm currently an undergraduate student at BU majoring in Business Analytics</li> */}

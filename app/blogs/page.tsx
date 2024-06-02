@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Blogs = () => {
   const blogs = [
-    { title: "Is it Worth Being Wise?", href: "/is-it-worth-being-wise" },
+    { title: "Is it Worth Being Wise?", href: "./is-it-worth-being-wise" },
     // Add other blogs as needed
   ];
 
