@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import '/globals.css'; 
 
 export default function Home() {
   return (
@@ -39,19 +38,19 @@ export default function Home() {
           <section className="mb-6">
             <h2 className="text-2xl text-gray-900 dark:text-black mb-3">Projects and Apps</h2>
             <ul className="list-disc list-inside text-gray-900 dark:text-gray-600">
-              <li>
+              <li className="list-disc">
                 Building Older Sister <a href="https://spark-older-sister.vercel.app/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">an AI powered app for women's health literacy</a>
               </li>
               <br/>
-              <li>
+              <li className="list-disc">
                 I'm running the <a href="https://womenxinnovators.wixsite.com/letsinnovate" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Womenx Innovators</a> community!
               </li>
               <br/>
-              <li>
+              <li className="list-disc">
                 I'm building <a href="https://tryavocadohealth.com/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Avocado Health 🥑</a>
               </li>
               <br/>
-              <li>
+              <li className="list-disc">
                 Building Destig Femme, an app on <a href="https://www.destigfemme.app/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Pi Network</a> and a safe space for women in blockchain to build community
               </li>
             </ul>
@@ -75,10 +74,10 @@ export default function Home() {
           <section className="mb-6">
             <h2 className="text-2xl text-gray-900 dark:text-black mb-3">More about me...</h2>
             <ul className="list-disc list-inside text-gray-900 dark:text-gray-600">
-              <li>I love sports, I have gone skydiving twice in my life, I also love skiing and horseback riding</li>
+              <li className="list-disc">I love sports, I have gone skydiving twice in my life, I also love skiing and horseback riding</li>
               {/* <li>I'm from Barcelona, Spain ☀️ and I'm currently an undergraduate student at BU majoring in Business Analytics</li> */}
               <br/>
-              <li>I learned how to code in high school because I wanted to be able to create things</li>
+              <li className="list-disc">I learned how to code in high school because I wanted to be able to create things</li>
             </ul>
           </section>
 
