@@ -36,8 +36,8 @@ export default function Home() {
           </section>
 
           <section className="mb-6">
-            <h2 className="text-3xl text-gray-800 dark:text-black mb-3">Projects and Apps</h2>
-            <ul className="list-disc list-inside text-gray-600 dark:text-gray-600">
+            <h2 className="text-2xl text-gray-900 dark:text-black mb-3">Projects and Apps</h2>
+            <ul className="list-disc list-inside text-gray-900 dark:text-gray-600">
               <li>
                 Building Older Sister <a href="https://spark-older-sister.vercel.app/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">an AI powered app for women's health literacy</a>
               </li>
@@ -72,8 +72,8 @@ export default function Home() {
           </section> */}
 
           <section className="mb-6">
-            <h2 className="text-3xl text-gray-800 dark:text-black mb-3">More about me...</h2>
-            <ul className="list-disc list-inside text-gray-600 dark:text-gray-600">
+            <h2 className="text-2xl text-gray-900 dark:text-black mb-3">More about me...</h2>
+            <ul className="list-disc list-inside text-gray-900 dark:text-gray-600">
               <li>I love sports, I have gone skydiving twice in my life, I also love skiing and horseback riding</li>
               {/* <li>I'm from Barcelona, Spain ☀️ and I'm currently an undergraduate student at BU majoring in Business Analytics</li> */}
               <br/>
@@ -82,7 +82,7 @@ export default function Home() {
           </section>
 
           <footer className="mb-10">
-            <h2 className="text-3xl text-gray-800 dark:text-black mb-3">Contact Me</h2>
+            <h2 className="text-3xl text-gray-900 dark:text-black mb-3">Contact Me</h2>
             <p className="text-gray-600 dark:text-gray-600">Email: galcaraz@bu.edu </p>
             <p className="text-gray-600 dark:text-gray-600">LinkedIn: <a href="https://www.linkedin.com/in/georgina-alcaraz/" className="text-blue-500 hover:text-blue-700">LinkedIn</a></p>
             <p className="text-gray-600 dark:text-gray-600">Twitter: <a href="https://twitter.com/gigiialc" className="text-blue-500 hover:text-blue-700">Twitter</a></p>
