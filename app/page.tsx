@@ -51,9 +51,9 @@ export default function Home() {
                 I'm building <a href="https://tryavocadohealth.com/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Avocado Health 🥑</a>
               </li>
               <br/>
-              <li className="list-disc">
+              {/* <li className="list-disc">
                 Building Destig Femme, an app on <a href="https://www.destigfemme.app/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Pi Network</a> and a safe space for women in blockchain to build community
-              </li>
+              </li> */}
             </ul>
           </section>
 
