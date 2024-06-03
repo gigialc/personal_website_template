@@ -71,7 +71,8 @@ export default function Home() {
               </li>
             </ul>
           </section> */}
-
+        <br/>
+        
           <section className="mb-6">
             <h2 className="text-2xl text-gray-900 dark:text-black mb-3">More about me...</h2>
             <ul className="list-disc list-inside text-gray-900 dark:text-gray-600">
