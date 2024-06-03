@@ -9,7 +9,7 @@ const Blogs = () => {
   return (
     <div className="flex min-h-screen flex-col bg-white">
       <main className="max-w-4xl mx-auto w-full mt-10">
-        <h1 className="text-2xl font-bold text-gray-800">Blogs</h1>
+        <h1 className="text-2xl font-bold text-gray-800 my-4">Blogs</h1>
         <ul className="list-disc pl-5">
           {blogs.map(blog => (
             <li key={blog.title} className="my-4">
