@@ -85,7 +85,7 @@ export default function Home() {
             <h2 className="text-2xl text-gray-900 dark:text-black mb-3">Contact 💌</h2>
             <p className="text-gray-600 dark:text-gray-600">Email: galcaraz@bu.edu </p>
             <p className="text-gray-600 dark:text-gray-600">LinkedIn: <a href="https://www.linkedin.com/in/georgina-alcaraz/" className="text-blue-500 hover:text-blue-700">LinkedIn</a></p>
-            {/* <p className="text-gray-600 dark:text-gray-600">Twitter: <a href="https://twitter.com/gigiialc" className="text-blue-500 hover:text-blue-700">Twitter</a></p> */}
+            <p className="text-gray-600 dark:text-gray-600">Twitter: <a href="https://twitter.com/gigiialc" className="text-blue-500 hover:text-blue-700">Twitter</a></p>
           </footer>
         </div>
       </main>
