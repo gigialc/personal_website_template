@@ -32,7 +32,7 @@ export default function Home() {
           </div>
           <section className="mb-6 mt-10">
             <p className="text-gray-600 dark:text-gray-600">
-              On a mission to increase women's health literacy ❤️
+              On a mission to increase women's health literacy ❤️ Blockchain enthusiast 🚀
             </p>
           </section>
 
@@ -57,20 +57,17 @@ export default function Home() {
             </ul>
           </section>
 
-          {/* <section className="mb-6">
+          <section className="mb-6">
             <h2 className="text-3xl text-gray-800 dark:text-black mb-3">Experience</h2>
             <ul className="list-disc list-inside text-gray-600 dark:text-gray-600">
+            <li>
+                I worked at <a href="https://anetabtc.io/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">AnetaBTC</a> building the community and learning about tokenomics and decentralized finance! (startup)
+              </li>
               <li>
                 I worked as a technology risk management intern @<a href="https://www.statestreet.com/us/en/asset-manager" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">State Street.</a> My favorite part was learning about digital assets and quantum encryption in banking.
               </li>
-              <li>
-                I was a software engineer and app developer at <a href="https://www.lotus-app.org/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Lotus</a> 🪷 (startup)
-              </li>
-              <li>
-                I worked at <a href="https://anetabtc.io/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">AnetaBTC</a> building the community and learning about tokenomics and decentralized finance! (startup)
-              </li>
             </ul>
-          </section> */}
+          </section>
         <br/>
         
           <section className="mb-6">
