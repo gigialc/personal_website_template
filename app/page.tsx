@@ -44,7 +44,7 @@ export default function Home() {
               </li>
               <br/>
               <li className="list-disc">
-                I'm running the <a href="https://womenxinnovators.wixsite.com/letsinnovate" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Womenx Innovators</a> community for female founders!
+                I'm running the <a href="https://www.womenxinnovators.club/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Womenx Innovators</a> community for female founders!
               </li>
               <br/>
               <li className="list-disc">
