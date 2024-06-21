@@ -86,6 +86,7 @@ export default function Home() {
             <p className="text-gray-600 dark:text-gray-600">Email: galcaraz@bu.edu </p>
             <p className="text-gray-600 dark:text-gray-600">LinkedIn: <a href="https://www.linkedin.com/in/georgina-alcaraz/" className="text-blue-500 hover:text-blue-700">LinkedIn</a></p>
             <p className="text-gray-600 dark:text-gray-600">Twitter: <a href="https://twitter.com/gigiialc" className="text-blue-500 hover:text-blue-700">Twitter</a></p>
+            <p className="text-gray-600 dark:text-gray-600">Github: <a href="https://github.com/gigialc" className="text-blue-500 hover:text-blue-700">Github</a></p>
           </footer>
         </div>
       </main>
