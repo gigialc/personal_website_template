@@ -39,9 +39,6 @@ export default function Home() {
           <section className="mb-6">
             <h2 className="text-2xl text-gray-900 dark:text-black mb-3">Projects and Apps</h2>
             <ul className="list-disc list-inside text-gray-900 dark:text-gray-600">
-              <li className="list-disc">
-                Building Older Sister <a href="https://spark-older-sister.vercel.app/" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">an AI powered app for women's health literacy</a>
-              </li>
               <br/>
               <li className="list-disc">
                 I'm running the <a href="https://womenxinnovators.wixsite.com/letsinnovate" className="text-pink-500 hover:text-pink-700" target="_blank" rel="noopener noreferrer">Womenx Innovators</a> community for female founders!
