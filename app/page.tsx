@@ -2,6 +2,15 @@ import Image from 'next/image';
 import { Mail, Linkedin, Twitter, Github } from 'lucide-react';
 
 export default function Home() {
+
+  const SubstackIcon = ({ size = 24, color = "currentColor" }) => (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3.75 3.75H20.25V6.75H3.75V3.75Z" fill={color} />
+      <path d="M3.75 8.25H20.25V11.25H3.75V8.25Z" fill={color} />
+      <path d="M3.75 12.75H20.25V20.25L12 16.5L3.75 20.25V12.75Z" fill={color} />
+    </svg>
+  );
+
   return (
     <div className="flex bg-white flex-col">
       <main className="min-h-screen p-4 sm:p-10">
@@ -25,10 +34,10 @@ export default function Home() {
 
           <div className="flex justify-center mb-10">
             <Image
-              src="/georgina.jpg"
+              src="/profilepic.png"
               alt="Gigi Alcaraz"
-              width={300}
-              height={300}
+              width={200}
+              height={200}
               className="rounded-full shadow-lg"
             />
           </div>
@@ -52,6 +61,9 @@ export default function Home() {
             </a>
             <a href="https://github.com/gigialc" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
               <Github size={24} />
+            </a>
+            <a href="https://yoursubstack.substack.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
+              <SubstackIcon size={24} />
             </a>
           </div>
           </section>
