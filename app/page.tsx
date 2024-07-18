@@ -62,7 +62,7 @@ export default function Home() {
             <a href="https://github.com/gigialc" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
               <Github size={24} />
             </a>
-            <a href="https://yoursubstack.substack.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
+            <a href="https://substack.com/@gigialcaraz?utm_source=edit-profile-page" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
               <SubstackIcon size={24} />
             </a>
           </div>
