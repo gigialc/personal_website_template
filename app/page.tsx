@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Mail, Linkedin, Twitter, Github } from 'lucide-react';
+import { Mail, Linkedin, Twitter, Github , YoutubeIcon} from 'lucide-react';
 
 export default function Home() {
 
@@ -65,6 +65,9 @@ export default function Home() {
             <a href="https://substack.com/@gigialcaraz?utm_source=edit-profile-page" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
               <SubstackIcon size={24} />
             </a>
+            <a href="https://www.youtube.com/channel/yourchannel" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
+      <YouTubeIcon size={24} />
+    </a>
           </div>
           </section>
 
@@ -81,7 +84,7 @@ export default function Home() {
               <div className="bg-white p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold mb-2">Avocado Health 🥑</h3>
                 <p className="text-gray-600 mb-4">AI copilot for safe health content generation.</p>
-                <a href="https://tryavocadohealth.com/" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Discover Avocado Health →</a>
+                <a href="https://avocadoai.vercel.app/" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Discover Avocado Health →</a>
               </div>
               <div className="bg-white p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold mb-2">Verve 💜</h3>
