@@ -102,11 +102,11 @@ export default function Home() {
               </div>
             </div>
 
-              <div className="bg-white p-6 hover:shadow-xl transition-shadow">
+              {/* <div className="bg-white p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold mb-2">Verve 💜</h3>
                 <p className="text-gray-600 mb-4">Empowering women with tailored, affordable healthcare solutions.</p>
                 <a href="https://verve-health.vercel.app/" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Experience Verve →</a>
-              </div>
+              </div> */}
 
           </section>
 
