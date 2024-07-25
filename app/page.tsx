@@ -66,8 +66,8 @@ export default function Home() {
               <SubstackIcon size={24} />
             </a>
             <a href="https://www.youtube.com/channel/yourchannel" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
-      <YouTubeIcon size={24} />
-    </a>
+            <YoutubeIcon size={24} />
+               </a>
           </div>
           </section>
 
