@@ -77,7 +77,7 @@ export default function Home() {
             {/* <h2 className="text-2xl text-black mb-6 text-center">Projects</h2> */}
             <div className="space-y-6">
               <div className="bg-white p-6 hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-semibold mb-2">Womenx Innovators</h3>
+                <h3 className="text-xl font-semibold mb-2">Womenx Innovators 🩷</h3>
                 <p className="text-gray-600 mb-4">Fostering a community of visionary female founders, driving innovation and change.</p>
                 <a href="https://womenxinnovators.wixsite.com/letsinnovate" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Explore the community →</a>
               </div>
@@ -86,14 +86,32 @@ export default function Home() {
                 <p className="text-gray-600 mb-4">AI copilot for safe health content generation.</p>
                 <a href="https://avocadoai.vercel.app/" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Discover Avocado Health →</a>
               </div>
+              <div className="bg-white p-6 hover:shadow-xl transition-shadow flex items-center space-x-4">
+                <Image
+                  src="/tabootalk.png"  // Make sure to replace with the correct path to your image
+                  alt="Taboo Talk Podcast"
+                  width={100}
+                  height={100}
+                  className="rounded-lg"
+                />
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">Taboo Talk Podcast 🎙️</h3>
+                  <p className="text-gray-600 mb-4">Get ready for a de-stigmatized version of the world.</p>
+                  <a href="https://podcasts.apple.com/es/podcast/taboo-talk/id1678230591" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Listen 🎧 </a>
+                </div>
+              </div>
+            </div>
+
               <div className="bg-white p-6 hover:shadow-xl transition-shadow">
                 <h3 className="text-xl font-semibold mb-2">Verve 💜</h3>
                 <p className="text-gray-600 mb-4">Empowering women with tailored, affordable healthcare solutions.</p>
                 <a href="https://verve-health.vercel.app/" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Experience Verve →</a>
               </div>
-            </div>
+
           </section>
 
+            <br />
+            <br />
           <section className="mb-12">
             <h2 className="text-3xl text-gray-800 mb-6 text-center">More about me...</h2>
             <div className="bg-white p-6">
