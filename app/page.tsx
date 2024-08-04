@@ -65,7 +65,7 @@ export default function Home() {
             <a href="https://substack.com/@gigialcaraz?utm_source=edit-profile-page" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
               <SubstackIcon size={24} />
             </a>
-            <a href="https://www.youtube.com/channel/yourchannel" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
+            <a href="https://www.youtube.com/@gigialcaraz" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-600 transition-colors">
             <YoutubeIcon size={24} />
                </a>
           </div>
