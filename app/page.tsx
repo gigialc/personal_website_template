@@ -44,8 +44,7 @@ export default function Home() {
 
           <section className="mb-12 text-center">
             <p className="text-base text-gray-700 leading-relaxed">
-              building in ai and blockchain right now  👩‍💻💌🪩🩷 
-              ...also figuring it out
+              building in ai and blockchain right now  👩‍💻💌🪩🩷            
             </p>
             <br />
              {/* Social icons at the top */}
