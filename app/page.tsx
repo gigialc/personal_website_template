@@ -86,7 +86,7 @@ export default function Home() {
                 <a href="https://avocadoai.vercel.app/api" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Discover Avocado Health →</a>
               </div>
               <div className="bg-white p-6 hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-semibold mb-2">AI Stylist 👗</h3>
+                <h3 className="text-xl font-semibold mb-2">AI Stylist 👠</h3>
                 <p className="text-gray-600 mb-4">Personalized fashion recommendations powered by AI.</p>
                 <a href="https://aifashion-seven.vercel.app/" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Try AI Stylist →</a>
               </div>
