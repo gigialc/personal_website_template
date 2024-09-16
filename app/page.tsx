@@ -90,20 +90,6 @@ export default function Home() {
                 <p className="text-gray-600 mb-4">Personalized fashion recommendations powered by AI.</p>
                 <a href="https://aifashion-seven.vercel.app/" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Try AI Stylist →</a>
               </div>
-              {/* <div className="bg-white p-6 hover:shadow-xl transition-shadow flex items-center space-x-4">
-                <Image
-                  src="/tabootalk.png"  // Make sure to replace with the correct path to your image
-                  alt="Taboo Talk Podcast"
-                  width={100}
-                  height={100}
-                  className="rounded-lg"
-                />
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Taboo Talk Podcast 🎙️</h3>
-                  <p className="text-gray-600 mb-4">Get ready for a de-stigmatized version of the world.</p>
-                  <a href="https://podcasts.apple.com/es/podcast/taboo-talk/id1678230591" className="text-teal-600 hover:text-teal-800 font-medium" target="_blank" rel="noopener noreferrer">Listen 🎧 </a>
-                </div>
-              </div> */}
             </div>
 
               {/* <div className="bg-white p-6 hover:shadow-xl transition-shadow">
