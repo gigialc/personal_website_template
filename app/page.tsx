@@ -117,6 +117,12 @@ export default function Home() {
                 linkText: "Discover Avocado Health"
               },
               {
+                title: "Grapevine 🍇",
+                description: "Connect and collaborate on passion projects",
+                link: "https://grapevinemvp.vercel.app/",
+                linkText: "Join Grapevine"
+              },
+              {
                 title: "AI Stylist 👠",
                 description: "Your personal AI stylist based on your pinterest board.",
                 link: "https://aifashion-seven.vercel.app/",
