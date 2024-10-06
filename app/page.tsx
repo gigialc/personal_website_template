@@ -120,7 +120,9 @@ export default function Home() {
                 title: "Grapevine 🍇",
                 description: "Connect and collaborate on passion projects",
                 link: "https://grapevinemvp.vercel.app/",
-                linkText: "Join Grapevine"
+                linkText: "Join Grapevine",
+                link1: "https://collabpandas.vercel.app/",
+                linkText1: "Our graphics on the waitlist"
               },
               {
                 title: "AI Stylist 👠",
@@ -138,14 +140,24 @@ export default function Home() {
               >
                 <h4 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800">{project.title}</h4>
                 <p className="text-gray-600 mb-4">{project.description}</p>
-                <a
-                  href={project.link}
-                  className="text-blue-600 hover:text-blue-800 transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {project.linkText} →
-                </a>
+                <div className="flex flex-col">
+                  <a
+                    href={project.link}
+                    className="text-blue-600 hover:text-blue-800 transition-colors mb-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.linkText} →
+                  </a>
+                  <a
+                    href={project.link1}
+                    className="text-blue-600 hover:text-blue-800 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.linkText1}
+                  </a>
+                </div>
               </motion.div>
             ))}
           </div>
