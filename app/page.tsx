@@ -121,7 +121,7 @@ export default function Home() {
                 description: "Connect and collaborate on passion projects",
                 link: "https://grapevinemvp.vercel.app/",
                 linkText: "Join Grapevine",
-                link1: "https://collabpandas.vercel.app/",
+                link1: "https://www.grapevinewaitlist.com/",
                 linkText1: "Our graphics on the waitlist"
               },
               {
