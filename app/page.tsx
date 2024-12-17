@@ -17,7 +17,6 @@ export default function Home() {
    const socials = [
     { href: "mailto:galcaraz@bu.edu", icon: Mail },
     { href: "https://www.linkedin.com/in/georgina-alcaraz/", icon: Linkedin },
-    { href: "https://twitter.com/gigiialc", icon: Twitter },
     { href: "https://github.com/gigialc", icon: Github },
     { href: "https://substack.com/@gigialcaraz?utm_source=edit-profile-page", icon: SubstackIcon },
     { href: "https://www.youtube.com/@gigialcaraz", icon: Youtube },
