@@ -62,7 +62,7 @@ export default function Home() {
                     alt="Georgina Alcaraz"
                     width={250}
                     height={250}
-                    className="rounded-full shadow-lg mx-auto md:mx-0 relative z-10 border-4 border-white/50"
+                    className="rounded-full shadow-lg mx-auto md:mx-0 relative z-10 border-white/50"
                   />
                 </div>
                 <div className="w-full md:w-1/2 text-center md:text-right">
@@ -75,7 +75,7 @@ export default function Home() {
                     Georgina Alcaraz
                   </motion.h1>
                   <p className="text-xl sm:text-base text-white/80 mb-6">
-                    Building AI and communities 👩‍💻💌🪩🩷
+                    Building AI and communities👩‍💻💌🪩
                   </p>
                   <div className="flex justify-center md:justify-end space-x-4">
                     {socials.map((social, index) => (
@@ -118,7 +118,7 @@ export default function Home() {
               </motion.div>
 
               {/* Coding Projects */}
-              <h3 className="text-xl sm:text-2xl font-bold text-white mb-10 mt-20 border-b border-white/10 pb-8">Coding Projects 🤖</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-white mb-10 mt-20 border-b border-white/10 pb-8">Coding Projects</h3>
               <div className="space-y-12">
                 {[
                   {
@@ -172,7 +172,7 @@ export default function Home() {
             {/* Add new Research section here */}
             <section id="research" className="mb-24">
               <h2 className="text-2xl sm:text-3xl font-bold text-white mb-10 border-b border-white/10 pb-8">
-                Research 🔬
+                Research
               </h2>
               <motion.div
                 className="border-b border-white/10 pb-8"
@@ -180,9 +180,9 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <h4 className="text-lg sm:text-xl font-semibold mb-2 text-white">Mirai @ MIT Media Lab 🤖</h4>
+                <h4 className="text-lg sm:text-xl font-semibold mb-2 text-white">Mirai @ MIT Media Lab</h4>
                 <p className="text-white/80 mb-4">
-                 Transform your inner dialogue with an AI voice clone that helps you reflect and grow. Experience conversations with your optimized self.
+                   Transform your inner dialogue with an AI voice clone that helps you reflect and grow. Experience conversations with your ideal self.
                 </p>
                 <a
                   href="https://mirai-girlssssss.vercel.app/"

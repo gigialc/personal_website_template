@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { JetBrains_Mono, Inter } from 'next/font/google'
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const jetBrains = JetBrains_Mono({ 
+  subsets: ['latin'],
+  variable: '--font-jetbrains',
+  weight: ['400', '700'],
+})
+
+const inter = Inter({ 
+  subsets: ['latin'],
+  variable: '--font-inter',
+  weight: ['400', '700'],
+})
 
 export const metadata: Metadata = {
   title: "Gigi Alcaraz",
@@ -15,8 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${jetBrains.variable} ${inter.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }
