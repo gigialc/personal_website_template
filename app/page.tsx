@@ -122,6 +122,12 @@ export default function Home() {
               <div className="space-y-12">
                 {[
                   {
+                    title: "OpenSeek 🌐",
+                    description: "Exploring the impact of language translation on AI censorship and bias through English-Russian translations.",
+                    link: "https://github.com/gigialc/openseek",
+                    linkText: "Explore OpenSeek"
+                  },
+                  {
                     title: "Avocado Health 🥑",
                     description: "AI copilot for health writing.",
                     link: "https://avocadoai.vercel.app/api",
