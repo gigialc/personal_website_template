@@ -123,7 +123,7 @@ export default function Home() {
                 {[
                   {
                     title: "OpenSeek 🌐",
-                    description: "Exploring the impact of language translation on AI censorship and bias through English-Russian translations.",
+                    description: "OpenSeek bypasses DeepSeek’s R1 censorship by translating queries to Russian language.",
                     link: "https://github.com/gigialc/openseek",
                     linkText: "Explore OpenSeek"
                   },
