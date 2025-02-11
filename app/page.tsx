@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Mail, Linkedin, Twitter, Github, Youtube } from 'lucide-react';
 import { motion } from 'framer-motion';
 import StarsBackground from './components/StarsBackground';
+import Link from 'next/link';
 
 const SubstackIcon = ({ size = 24, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,55 +120,75 @@ export default function Home() {
 
               {/* Coding Projects */}
               <h3 className="text-xl sm:text-2xl font-bold text-white mb-10 mt-20 border-b border-white/10 pb-8">Coding Projects</h3>
-              <div className="space-y-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
                   {
+                    title: "AutoTask 🤖",
+                    description: "AI brain that knows everything you're doing on your laptop, and auto completes your routine tasks.",
+                    link: "/autotask",
+                    linkText: "View Project Details",
+                    isInternalLink: true
+                  },
+                  {
                     title: "OpenSeek 🌐",
-                    description: "OpenSeek bypasses DeepSeek’s R1 censorship by translating queries to Russian language.",
-                    link: "https://github.com/gigialc/openseek",
-                    linkText: "Explore OpenSeek"
+                    description: "OpenSeek bypasses DeepSeek's R1 censorship by translating queries to Russian language.",
+                    link: "/openseek",
+                    linkText: "View Project Details",
+                    isInternalLink: true
                   },
                   {
                     title: "Avocado Health 🥑",
                     description: "AI copilot for health writing.",
-                    link: "https://avocadoai.vercel.app/api",
-                    linkText: "Discover Avocado Health"
+                    link: "/avocado",
+                    linkText: "View Project Details",
+                    isInternalLink: true
                   },
                   {
                     title: "Grapevine 🍇",
                     description: "Connect and collaborate on passion projects",
-                    link: "https://grapevinemvp.vercel.app/",
-                    linkText: "Join Grapevine"
+                    link: "/grapevine",
+                    linkText: "View Project Details",
+                    isInternalLink: true
                   },
                   {
                     title: "AI Stylist 👠",
                     description: "Your personal AI stylist based on your pinterest board.",
-                    link: "https://aifashion-seven.vercel.app/",
-                    linkText: "Try AI Stylist"
+                    link: "/ai-stylist",
+                    linkText: "View Project Details",
+                    isInternalLink: true
                   }
                 ].map((project, index) => (
                   <motion.div
                     key={index}
-                    className="relative group rounded-xl bg-white/5 backdrop-blur-sm p-6 hover:bg-white/10 transition-all duration-300 border border-white/10 animate-float"
-                    style={{ animationDelay: `${index * 0.2}s` }}
+                    className="relative group rounded-xl bg-white/5 backdrop-blur-sm p-6 hover:bg-white/10 transition-all duration-300 border border-white/10"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                   >
                     <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-300 via-pink-300 to-blue-300 rounded-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300" />
-                    <div className="relative">
+                    <div className="relative h-full flex flex-col">
                       <h4 className="text-lg sm:text-xl font-semibold mb-2 text-white">{project.title}</h4>
-                      <p className="text-white/80 mb-4">{project.description}</p>
-                      <div className="flex flex-col">
-                        <a
-                          href={project.link}
-                          className="text-purple-300 hover:text-purple-400 transition-colors mb-2"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {project.linkText} →
-                        </a>
-                      
+                      <p className="text-white/80 mb-4 flex-grow">{project.description}</p>
+                      <div className="mt-auto">
+                        {project.isInternalLink ? (
+                          <Link
+                            href={project.link}
+                            className="text-purple-300 hover:text-purple-400 transition-colors inline-flex items-center"
+                          >
+                            {project.linkText}
+                            <span className="ml-1">→</span>
+                          </Link>
+                        ) : (
+                          <a
+                            href={project.link}
+                            className="text-purple-300 hover:text-purple-400 transition-colors inline-flex items-center"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {project.linkText}
+                            <span className="ml-1">→</span>
+                          </a>
+                        )}
                       </div>
                     </div>
                   </motion.div>
@@ -188,16 +209,14 @@ export default function Home() {
               >
                 <h4 className="text-lg sm:text-xl font-semibold mb-2 text-white">Mirai @ MIT Media Lab</h4>
                 <p className="text-white/80 mb-4">
-                   Transform your inner dialogue with an AI voice clone that helps you reflect and grow. Experience conversations with your ideal self.
+                  Transforming Self-Perception Through AI: The Impact of Personalized Voice-Cloning and Affirmation on Mental Wellbeing
                 </p>
-                <a
-                  href="https://mirai-girlssssss.vercel.app/"
+                <Link
+                  href="/mirai"
                   className="text-purple-300 hover:text-purple-400 transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
-                  Try Mirai →
-                </a>
+                  View Research Details →
+                </Link>
               </motion.div>
             </section>
 
